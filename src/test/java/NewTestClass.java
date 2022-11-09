@@ -1,12 +1,13 @@
 import ch.qos.logback.classic.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
+
+
 
 public class NewTestClass extends BaseHelper {
 
     Logger logger = (Logger) LoggerFactory.getLogger(NewTestClass.class);
+
 
 
     @Test
