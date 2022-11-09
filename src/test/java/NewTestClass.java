@@ -1,16 +1,14 @@
-import ch.qos.logback.classic.Logger;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
-
 
 
 public class NewTestClass extends BaseHelper {
 
     Logger logger = (Logger) LoggerFactory.getLogger(NewTestClass.class);
 
-
-
     @Test
+//    @Test
     public void firstTest() {
         logger.info("Start logging");
 
